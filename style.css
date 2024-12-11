@@ -63,6 +63,9 @@ body {
     font-size: 18px;
     color: #fff;
 }
+h1{
+    color: #39930d;
+}
 .menu ul{
     padding: 20px;
     list-style: none;
@@ -72,6 +75,12 @@ body {
     line-height: 2.1em;
     text-transform: uppercase;
     color: #39930d;
+}
+.menu li:hover > a{
+    font-size: 14px;
+    line-height: 2.1em;
+    text-transform: uppercase;
+    color: aqua;
 }
 .footer {
     margin: 0 -15px;
