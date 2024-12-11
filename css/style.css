@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #39930d;
+    background-color: #8dc63f;;
     font-family: Arial, Helvetica, sans-serif;
 }
 .wrapper {
@@ -29,7 +29,6 @@ body {
     display: block;
     font-size: 44px;
     color: #39930d;
-
 }
 .logo i,
 .contacts i {
@@ -67,7 +66,6 @@ body {
 .menu ul{
     padding: 20px;
     list-style: none;
-
 }
 .menu a {
     font-size: 14px;
@@ -81,5 +79,4 @@ body {
     background-color: #39930d;
     font-size: 14px;
     color: #fff;
-
 }
