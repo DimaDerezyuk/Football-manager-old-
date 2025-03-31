@@ -14,11 +14,22 @@ body {
     background-color: #fff;
 }
 .flex-between {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
 }
 .header{
     padding: 25px 0;
+}
+.logo img{
+    padding-left: 15px;
+}
+.main-imgg{
+    width: 100%;
+    min-height: 200px;
+    object-fit: cover;
+    object-position: 75%;
+    vertical-align: bottom;
 }
 .logo p,
 .contacts a {
@@ -39,9 +50,11 @@ body {
     text-align: right;
 }
 .main-img img {
+    
     width: 100%;
 }
 .main {
+    flex-wrap: wrap-reverse;
     padding: 25px 0 29px;
 }
 .main-text{
@@ -57,7 +70,7 @@ body {
     color: #343434;
 }
 .menu p{
-    width: 300px;
+    width: 300px;   
     padding: 11px 20px;
     background-color: #39930d;
     font-size: 18px;
@@ -76,16 +89,42 @@ h1{
     text-transform: uppercase;
     color: #39930d;
 }
-.menu li:hover > a{
-    font-size: 14px;
-    line-height: 2.1em;
-    text-transform: uppercase;
-    color: aqua;
-}
+
 .footer {
     margin: 0 -15px;
     padding: 14px   ;
     background-color: #39930d;
     font-size: 14px;
     color: #fff;
+}
+@media screen and (min-width: 621px) {
+    .logo{
+        text-align: left;
+    }
+    .contacts{
+        text-align: right;
+    }
+}
+@media screen and (min-width: 768px) {
+    .flex-between {
+        justify-content: space-between;
+    }
+    .main{
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (min-width: 1024px){
+    .html {
+        font-size: 1px;
+    }
+}
+@media screen and (min-width: 1440px){
+    .html {
+        font-size: 1.2px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .html {
+        font-size: 2px;
+    }
 }
