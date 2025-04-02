@@ -20,10 +20,13 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
 }
 .header{
+    text-align: center;
     padding: 25px 0;
+}
+.logo i {
+    text-align: center;
 }
 .logo img{
     padding-left: 15px;
@@ -117,6 +120,9 @@ h1{
     .main{
         flex-wrap: nowrap;
     }
+    i{
+        text-align: center;
+    }
 }
 @media screen and (min-width: 1024px){
     .html {
@@ -131,5 +137,10 @@ h1{
 @media screen and (min-width: 1920px){
     .html {
         font-size: 2px;
+    }
+}
+@media screen and (min-width: 2560px){
+    .html {
+        font-size: 2.4px;
     }
 }
