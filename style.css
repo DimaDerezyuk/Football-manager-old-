@@ -25,9 +25,6 @@ body {
     text-align: center;
     padding: 25px 0;
 }
-.logo i {
-    text-align: center;
-}
 .logo img{
     padding-left: 15px;
 }
@@ -54,7 +51,7 @@ body {
     color: #5a5a5a;
 }
 .contacts {
-    text-align: right;
+    text-align: center;
 }
 .main-img img {  
     width: 100%;
@@ -71,7 +68,7 @@ body {
     margin-bottom: 17px;
 }
 .main-text p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5em;
     color: #343434;
 }
@@ -105,42 +102,39 @@ h1{
     color: #fff;
 }
 
-@media screen and (min-width: 621px) {
-    .logo{
-        text-align: left;
-    }
-    .contacts{
-        text-align: right;
-    }
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 520px) {
     .flex-between {
         justify-content: space-between;
     }
-    .main{
+    .main {
         flex-wrap: nowrap;
     }
-    i{
-        text-align: center;
+}
+@media screen and (min-width: 320px) {
+    .menu {
+        width: 100%;
     }
 }
-@media screen and (min-width: 1024px){
-    .html {
-        font-size: 1px;
+@media screen and (min-width: 621px) {
+    .contacts p {
+        text-align: right;
+    }
+    .logo {
+        text-align: left;
     }
 }
-@media screen and (min-width: 1440px){
-    .html {
-        font-size: 1.2px;
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 1px;
+  }
+}
+@media screen and (min-width: 1440px) {
+    html {
+      font-size: 1.2px;
     }
 }
-@media screen and (min-width: 1920px){
-    .html {
-        font-size: 2px;
-    }
-}
-@media screen and (min-width: 2560px){
-    .html {
-        font-size: 2.4px;
+@media screen and (min-width: 2560px) {
+    html {
+      font-size: 2.4px;
     }
 }
